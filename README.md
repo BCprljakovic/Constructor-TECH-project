@@ -4,11 +4,9 @@ This project demonstrates basic functionalities of ROS2 Humble.
 
 It works as follows:
 
-  We have a publisher node on one and which reads from user input and sends it, along with timestamp, to custom "TextStamped" topic
+*  We have a publisher node on one end which reads user input and sends it, along with timestamp and message ID, to custom "TextStamped" topic
   
-  On the other end there is a subscriber node that subscribes to the "TextStamped" topic 
-  
-  and displays the messages written by user along with their ID, time sent, time recieved and delay in  tabular format
+*  On the other end there is a subscriber node that subscribes to the "TextStamped" topic, and displays the messages written by user along with their ID, time sent, time recieved and delay in  tabular format
 
 ## Build instructions
 
@@ -38,12 +36,12 @@ After that, run:
 ###
     docker run --rm --name one -it container
 --rm flag will automatically delete the container after you finish using it so If you want to keep it and then restart it later run this command without the flag
+
 Now, go to the second terminal and run:
 ###
     docker exec -it one bash
 
 ### Without Docker
-Now you have everything set up
 
 In one of the terminals run:
 ###
@@ -53,7 +51,7 @@ And in other one run:
     ros2 run text_publisher publisher_node test.txt
 ### For manual testing
     ros2 run text_publisher publisher_node
-When you are done just input "q" and in terminal where you ran text_subscriber use Ctrl+C keyboard interrupt
+When you are done just input "q", and in terminal where you ran text_subscriber use Ctrl+C keyboard interrupt
 
 If you want to play data recorded in a bag run: 
 ###
