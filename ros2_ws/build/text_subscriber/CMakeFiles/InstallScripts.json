@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/bogdancprljakovic/ros2_ws/build/text_subscriber/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

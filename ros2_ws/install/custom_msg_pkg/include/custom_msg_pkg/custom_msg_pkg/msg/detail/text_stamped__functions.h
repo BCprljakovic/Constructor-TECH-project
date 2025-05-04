@@ -1,1 +1,0 @@
-/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg/rosidl_generator_c/custom_msg_pkg/msg/detail/text_stamped__functions.h

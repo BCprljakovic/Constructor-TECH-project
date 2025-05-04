@@ -1,1 +1,0 @@
-/Users/bogdancprljakovic/ros2_ws/src/custom_msg_pkg/msg/TextStamped.msg

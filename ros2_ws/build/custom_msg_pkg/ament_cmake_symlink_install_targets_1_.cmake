@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg/rosidl_generator_py/custom_msg_pkg/custom_msg_pkg_s__rosidl_typesupport_introspection_c.cpython-311-darwin.so" "TARGETS" "custom_msg_pkg__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.11/site-packages/custom_msg_pkg")

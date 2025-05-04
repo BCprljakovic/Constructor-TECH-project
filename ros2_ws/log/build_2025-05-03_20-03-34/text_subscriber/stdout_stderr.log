@@ -1,8 +1,0 @@
-[ 50%] Building CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o
-/Users/bogdancprljakovic/ros2_ws/src/text_subscriber/src/subscriber_node.cpp:2:10: fatal error: 'custom_msg_pkg/msg/TextStamped.hpp' file not found
-    2 | #include "custom_msg_pkg/msg/TextStamped.hpp"
-      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1 error generated.
-make[2]: *** [CMakeFiles/subscriber_node.dir/build.make:79: CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/subscriber_node.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2

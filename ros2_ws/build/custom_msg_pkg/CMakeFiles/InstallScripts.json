@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg/cmake_install.cmake",
-		"/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg/custom_msg_pkg__py/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

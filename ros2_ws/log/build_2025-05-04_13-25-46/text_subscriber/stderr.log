@@ -1,2 +1,0 @@
-/opt/anaconda3/envs/ros2/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib/text_subscriber/subscriber_node
-[cctools-port]: generating fake signature for '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib/text_subscriber/subscriber_node'
