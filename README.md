@@ -13,12 +13,21 @@ It works as follows:
 
 ## Build instructions
 
-### With Docker
-
 When you clone the repository open two terminals inside the ros2_ws folder.
 Then, in one of them run:
+### With Docker
+
 ###
     docker build -t container
+    
+After that, run:
+###
+    docker run --rm --name one -it container
+--rm flag will automatically delete the container after you finish using it so If you want to keep it and then restart it later run this command without the flag
+
+Now, go to the second terminal and run:
+###
+    docker exec -it one bash
 
 ### Without Docker
 
@@ -32,19 +41,6 @@ Then run one of the following commands **in both terminals** depending if you us
     source install/setup.zsh
 
 ## Run instructions
-
-### With Docker
-
-After that, run:
-###
-    docker run --rm --name one -it container
---rm flag will automatically delete the container after you finish using it so If you want to keep it and then restart it later run this command without the flag
-
-Now, go to the second terminal and run:
-###
-    docker exec -it one bash
-
-### Without Docker
 
 In one of the terminals run:
 ###
