@@ -8,6 +8,9 @@ It works as follows:
   
 *  On the other end there is a subscriber node that subscribes to the "TextStamped" topic, and displays the messages written by user along with their ID, time sent, time recieved and delay in  tabular format
 
+### Example output:
+<img width="621" alt="Screenshot 2025-05-04 at 14 40 43" src="https://github.com/user-attachments/assets/1878fdc4-df68-44d2-8036-cfd84a953d39" />
+
 ## Build instructions
 
 ### With Docker
