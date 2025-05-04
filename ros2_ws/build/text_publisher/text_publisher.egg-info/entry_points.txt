@@ -1,0 +1,3 @@
+[console_scripts]
+publisher_node = text_publisher.publisher_node:main
+

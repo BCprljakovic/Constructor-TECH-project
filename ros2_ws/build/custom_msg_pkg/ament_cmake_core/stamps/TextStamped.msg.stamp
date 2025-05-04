@@ -1,0 +1,3 @@
+builtin_interfaces/Time timestamp
+string text
+uint32 id

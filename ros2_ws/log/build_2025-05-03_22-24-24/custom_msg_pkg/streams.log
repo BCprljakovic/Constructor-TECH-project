@@ -1,0 +1,124 @@
+[0.018s] Invoking command in '/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --build /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg -- -j8 -l8
+[0.111s] [  3%] Built target custom_msg_pkg__cpp
+[0.117s] [ 12%] Built target custom_msg_pkg__rosidl_generator_c
+[0.121s] [ 12%] Built target ament_cmake_python_symlink_custom_msg_pkg
+[0.152s] [ 22%] Built target custom_msg_pkg__rosidl_typesupport_introspection_c
+[0.156s] [ 32%] Built target custom_msg_pkg__rosidl_typesupport_fastrtps_cpp
+[0.157s] [ 41%] Built target custom_msg_pkg__rosidl_typesupport_cpp
+[0.158s] [ 54%] Built target custom_msg_pkg__rosidl_typesupport_introspection_cpp
+[0.158s] [ 61%] Built target custom_msg_pkg__rosidl_typesupport_c
+[0.165s] [ 70%] Built target custom_msg_pkg__rosidl_typesupport_fastrtps_c
+[0.189s] [ 70%] Built target custom_msg_pkg
+[0.213s] [ 74%] Built target custom_msg_pkg__py
+[0.241s] [ 80%] Built target custom_msg_pkg__rosidl_generator_py
+[0.260s] running egg_info
+[0.260s] writing custom_msg_pkg.egg-info/PKG-INFO
+[0.260s] writing dependency_links to custom_msg_pkg.egg-info/dependency_links.txt
+[0.260s] writing top-level names to custom_msg_pkg.egg-info/top_level.txt
+[0.262s] reading manifest file 'custom_msg_pkg.egg-info/SOURCES.txt'
+[0.262s] writing manifest file 'custom_msg_pkg.egg-info/SOURCES.txt'
+[0.274s] [100%] Built target custom_msg_pkg__rosidl_typesupport_introspection_c__pyext
+[0.274s] [100%] Built target custom_msg_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.274s] [100%] Built target custom_msg_pkg__rosidl_typesupport_c__pyext
+[0.283s] [100%] Built target ament_cmake_python_build_custom_msg_pkg_egg
+[0.292s] Invoked command in '/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --build /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg -- -j8 -l8
+[0.410s] Invoking command in '/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --install /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg
+[0.419s] -- Install configuration: ""
+[0.421s] -- Execute custom install script
+[0.421s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/ament_index/resource_index/rosidl_interfaces/custom_msg_pkg
+[0.422s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__functions.h
+[0.422s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__struct.h
+[0.422s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__type_support.h
+[0.422s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/rosidl_generator_c__visibility_control.h
+[0.422s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/text_stamped.h
+[0.422s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__rosidl_typesupport_fastrtps_c.h
+[0.423s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.423s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__builder.hpp
+[0.423s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__struct.hpp
+[0.423s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__traits.hpp
+[0.423s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__type_support.hpp
+[0.423s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.423s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/text_stamped.hpp
+[0.423s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.424s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.424s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__rosidl_typesupport_introspection_c.h
+[0.424s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.424s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/include/custom_msg_pkg/custom_msg_pkg/msg/detail/text_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.424s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/environment/pythonpath.sh
+[0.424s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/environment/pythonpath.dsv
+[0.424s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg-0.0.0-py3.11.egg-info/PKG-INFO
+[0.424s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg-0.0.0-py3.11.egg-info/SOURCES.txt
+[0.425s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg-0.0.0-py3.11.egg-info/dependency_links.txt
+[0.425s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg-0.0.0-py3.11.egg-info/top_level.txt
+[0.425s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/__init__.py
+[0.425s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/_custom_msg_pkg_s.ep.rosidl_typesupport_c.c
+[0.425s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/_custom_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.425s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/_custom_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[0.425s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/custom_msg_pkg_s__rosidl_typesupport_c.cpython-311-darwin.so
+[0.425s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/custom_msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-311-darwin.so
+[0.425s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/custom_msg_pkg_s__rosidl_typesupport_introspection_c.cpython-311-darwin.so
+[0.426s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/libcustom_msg_pkg__rosidl_generator_py.dylib
+[0.426s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/msg/__init__.py
+[0.426s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/msg/_text_stamped.py
+[0.426s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/msg/_text_stamped_s.c
+[0.426s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/custom_msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-311-darwin.so
+[0.426s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/custom_msg_pkg_s__rosidl_typesupport_introspection_c.cpython-311-darwin.so
+[0.427s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages/custom_msg_pkg/custom_msg_pkg_s__rosidl_typesupport_c.cpython-311-darwin.so
+[0.427s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/msg/TextStamped.idl
+[0.427s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/msg/TextStamped.msg
+[0.427s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/ament_index/resource_index/package_run_dependencies/custom_msg_pkg
+[0.427s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/ament_index/resource_index/parent_prefix_path/custom_msg_pkg
+[0.427s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/environment/ament_prefix_path.sh
+[0.428s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/environment/ament_prefix_path.dsv
+[0.428s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/environment/path.sh
+[0.428s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/environment/path.dsv
+[0.428s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/local_setup.bash
+[0.428s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/local_setup.sh
+[0.428s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/local_setup.zsh
+[0.428s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/local_setup.dsv
+[0.428s] -- Symlinking: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.dsv
+[0.436s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/ament_index/resource_index/packages/custom_msg_pkg
+[0.436s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/rosidl_cmake-extras.cmake
+[0.436s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.437s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.437s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.437s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[0.437s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.437s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.437s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkgConfig.cmake
+[0.437s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkgConfig-version.cmake
+[0.437s] -- Up-to-date symlink: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.xml
+[0.437s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_generator_c.dylib
+[0.437s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_fastrtps_c.dylib
+[0.440s] error: /opt/anaconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg found in: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_fastrtps_c.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg"
+[0.440s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_fastrtps_cpp.dylib
+[0.440s] -- Installing: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_introspection_c.dylib
+[0.442s] /opt/anaconda3/envs/ros2/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_introspection_c.dylib
+[0.442s] [cctools-port]: generating fake signature for '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_introspection_c.dylib'
+[0.451s] -- Installing: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_c.dylib
+[0.452s] /opt/anaconda3/envs/ros2/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_c.dylib
+[0.453s] [cctools-port]: generating fake signature for '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_c.dylib'
+[0.458s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_introspection_cpp.dylib
+[0.459s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_typesupport_cpp.dylib
+[0.476s] Listing 'lib/python3.11/site-packages/custom_msg_pkg'...
+[0.476s] Can't list 'lib/python3.11/site-packages/custom_msg_pkg'
+[0.478s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_generator_py.dylib
+[0.479s] error: /opt/anaconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg found in: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/libcustom_msg_pkg__rosidl_generator_py.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg"
+[0.480s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/export_custom_msg_pkg__rosidl_generator_cExport.cmake
+[0.480s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/export_custom_msg_pkg__rosidl_generator_cExport-noconfig.cmake
+[0.480s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/export_custom_msg_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[0.480s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/export_custom_msg_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.480s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/export_custom_msg_pkg__rosidl_generator_cppExport.cmake
+[0.480s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/export_custom_msg_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.480s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/export_custom_msg_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.480s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkg__rosidl_typesupport_introspection_cExport.cmake
+[0.481s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.481s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkg__rosidl_typesupport_cExport.cmake
+[0.481s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[0.481s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[0.481s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.481s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkg__rosidl_typesupport_cppExport.cmake
+[0.481s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/custom_msg_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[0.481s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/export_custom_msg_pkg__rosidl_generator_pyExport.cmake
+[0.481s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake/export_custom_msg_pkg__rosidl_generator_pyExport-noconfig.cmake
+[0.483s] Invoked command in '/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --install /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg

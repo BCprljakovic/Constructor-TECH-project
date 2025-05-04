@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/text_publisher/text_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/text_publisher/text_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/text_publisher/text_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/text_publisher/text_publisher.egg-info/requires.txt
+writing top-level names to ../../build/text_publisher/text_publisher.egg-info/top_level.txt
+reading manifest file '../../build/text_publisher/text_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/text_publisher/text_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+copying text_publisher/publisher_node.py -> /Users/bogdancprljakovic/ros2_ws/build/text_publisher/build/lib/text_publisher
+running install
+running install_lib
+copying /Users/bogdancprljakovic/ros2_ws/build/text_publisher/build/lib/text_publisher/publisher_node.py -> /Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages/text_publisher
+byte-compiling /Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages/text_publisher/publisher_node.py to publisher_node.cpython-311.pyc
+running install_data
+copying package.xml -> /Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher
+running install_egg_info
+removing '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages/text_publisher-0.0.0-py3.11.egg-info' (and everything under it)
+Copying ../../build/text_publisher/text_publisher.egg-info to /Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages/text_publisher-0.0.0-py3.11.egg-info
+running install_scripts
+Installing publisher_node script to /Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/text_publisher
+writing list of installed files to '/Users/bogdancprljakovic/ros2_ws/build/text_publisher/install.log'

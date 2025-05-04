@@ -1,0 +1,26 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at CMakeLists.txt:13 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /Users/bogdancprljakovic/ros2_ws/src/text_subscriber/src/subscriber_node.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+/Users/bogdancprljakovic/ros2_ws/src/text_subscriber/src/subscriber_node.cpp:1:10: fatal error: 'rclcpp' file not found
+    1 | #include "rclcpp"
+      |          ^~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/subscriber_node.dir/build.make:79: CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/subscriber_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

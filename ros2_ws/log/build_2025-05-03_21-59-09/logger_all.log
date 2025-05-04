@@ -1,0 +1,267 @@
+[0.172s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/opt/anaconda3/envs/ros2/bin/colcon', 'build'][0m
+[0.172s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x1044f44d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x1044ebdd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x1044ebdd0>>)[0m
+[0.276s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.276s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.276s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.276s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.276s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.276s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.276s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/Users/bogdancprljakovic/ros2_ws'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_msg_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_msg_pkg) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_msg_pkg) by extension 'ignore_ament_install'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_msg_pkg) by extensions ['colcon_pkg']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_msg_pkg) by extension 'colcon_pkg'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_msg_pkg) by extensions ['colcon_meta']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_msg_pkg) by extension 'colcon_meta'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_msg_pkg) by extensions ['ros']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/custom_msg_pkg) by extension 'ros'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/custom_msg_pkg' with type 'ros.ament_cmake' and name 'custom_msg_pkg'[0m
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_publisher) by extension 'ignore'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_publisher) by extension 'ignore_ament_install'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_publisher) by extensions ['colcon_pkg']
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_publisher) by extension 'colcon_pkg'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_publisher) by extensions ['colcon_meta']
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_publisher) by extension 'colcon_meta'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_publisher) by extensions ['ros']
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_publisher) by extension 'ros'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/text_publisher' with type 'ros.ament_python' and name 'text_publisher'[0m
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_subscriber) by extension 'ignore'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_subscriber) by extension 'ignore_ament_install'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_subscriber) by extensions ['colcon_pkg']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_subscriber) by extension 'colcon_pkg'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_subscriber) by extensions ['colcon_meta']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_subscriber) by extension 'colcon_meta'
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_subscriber) by extensions ['ros']
+[0.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/text_subscriber) by extension 'ros'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/text_subscriber' with type 'ros.ament_cmake' and name 'text_subscriber'[0m
+[0.296s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.296s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.296s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.296s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.296s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_msg_pkg' build argument 'cmake_args' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_msg_pkg' build argument 'cmake_target' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_msg_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_msg_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_msg_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_msg_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_msg_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_msg_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_msg_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'custom_msg_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg', 'merge_install': False, 'path': '/Users/bogdancprljakovic/ros2_ws/src/custom_msg_pkg', 'symlink_install': False, 'test_result_base': None}[0m
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_publisher' build argument 'cmake_args' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_publisher' build argument 'cmake_target' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'text_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/bogdancprljakovic/ros2_ws/build/text_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/bogdancprljakovic/ros2_ws/install/text_publisher', 'merge_install': False, 'path': '/Users/bogdancprljakovic/ros2_ws/src/text_publisher', 'symlink_install': False, 'test_result_base': None}[0m
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'text_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'text_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/bogdancprljakovic/ros2_ws/build/text_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber', 'merge_install': False, 'path': '/Users/bogdancprljakovic/ros2_ws/src/text_subscriber', 'symlink_install': False, 'test_result_base': None}[0m
+[0.307s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.307s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.308s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/Users/bogdancprljakovic/ros2_ws/src/custom_msg_pkg' with build type 'ament_cmake'
+[0.308s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/Users/bogdancprljakovic/ros2_ws/src/custom_msg_pkg'
+[0.309s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.324s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --build /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg -- -j8 -l8[0m
+[0.592s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --build /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg -- -j8 -l8[0m
+[0.712s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --install /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg[0m
+[0.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(custom_msg_pkg)
+[0.783s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --install /Users/bogdancprljakovic/ros2_ws/build/custom_msg_pkg[0m
+[0.785s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg' for CMake module files
+[0.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg' for CMake config files
+[0.787s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_msg_pkg', 'cmake_prefix_path')
+[0.787s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/cmake_prefix_path.ps1'
+[0.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/cmake_prefix_path.dsv'
+[0.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/cmake_prefix_path.sh'
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib'
+[0.789s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_msg_pkg', 'dyld_library_path')
+[0.789s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/dyld_library_path.ps1'
+[0.789s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/dyld_library_path.dsv'
+[0.789s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/dyld_library_path.sh'
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/bin'
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/pkgconfig/custom_msg_pkg.pc'
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages'
+[0.789s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_msg_pkg', 'pythonpath')
+[0.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/pythonpath.ps1'
+[0.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/pythonpath.dsv'
+[0.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/pythonpath.sh'
+[0.790s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/bin'
+[0.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.ps1'
+[0.791s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.dsv'
+[0.791s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.sh'
+[0.792s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.bash'
+[0.792s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.zsh'
+[0.793s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/colcon-core/packages/custom_msg_pkg)
+[0.899s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(custom_msg_pkg)
+[0.899s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg' for CMake module files
+[0.900s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg' for CMake config files
+[0.900s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_msg_pkg', 'cmake_prefix_path')
+[0.900s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/cmake_prefix_path.ps1'
+[0.900s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/cmake_prefix_path.dsv'
+[0.900s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/cmake_prefix_path.sh'
+[0.901s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib'
+[0.901s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_msg_pkg', 'dyld_library_path')
+[0.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/dyld_library_path.ps1'
+[0.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/dyld_library_path.dsv'
+[0.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/dyld_library_path.sh'
+[0.901s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/bin'
+[0.901s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/pkgconfig/custom_msg_pkg.pc'
+[0.901s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages'
+[0.901s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_msg_pkg', 'pythonpath')
+[0.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/pythonpath.ps1'
+[0.902s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/pythonpath.dsv'
+[0.902s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/hook/pythonpath.sh'
+[0.902s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/bin'
+[0.902s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.ps1'
+[0.902s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.dsv'
+[0.902s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.sh'
+[0.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.bash'
+[0.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/package.zsh'
+[0.903s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/colcon-core/packages/custom_msg_pkg)
+[0.903s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/Users/bogdancprljakovic/ros2_ws/src/text_publisher' with build type 'ament_python'
+[0.903s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('text_publisher', 'ament_prefix_path')
+[0.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/hook/ament_prefix_path.ps1'
+[0.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/hook/ament_prefix_path.dsv'
+[0.904s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/hook/ament_prefix_path.sh'
+[0.904s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.904s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.907s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/Users/bogdancprljakovic/ros2_ws/src/text_subscriber' with build type 'ament_cmake'
+[0.907s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/Users/bogdancprljakovic/ros2_ws/src/text_subscriber'
+[0.907s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.907s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.032s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/Users/bogdancprljakovic/ros2_ws/src/text_publisher'
+[1.032s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.032s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.038s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/bogdancprljakovic/ros2_ws/build/text_subscriber': CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:/Users/bogdancprljakovic/ros2_ws/install/text_subscriber:/opt/anaconda3/envs/ros2:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/opt/anaconda3/envs/ros2/lib/python311/site-packages:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --build /Users/bogdancprljakovic/ros2_ws/build/text_subscriber -- -j8 -l8[0m
+[1.240s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/bogdancprljakovic/ros2_ws/src/text_publisher': CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:/Users/bogdancprljakovic/ros2_ws/install/text_subscriber:/opt/anaconda3/envs/ros2 CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/build/text_publisher/prefix_override:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/opt/anaconda3/envs/ros2/lib/python311/site-packages:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/text_publisher build --build-base /Users/bogdancprljakovic/ros2_ws/build/text_publisher/build install --record /Users/bogdancprljakovic/ros2_ws/build/text_publisher/install.log --single-version-externally-managed install_data[0m
+[1.345s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/bogdancprljakovic/ros2_ws/build/text_subscriber' returned '0': CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:/Users/bogdancprljakovic/ros2_ws/install/text_subscriber:/opt/anaconda3/envs/ros2:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/opt/anaconda3/envs/ros2/lib/python311/site-packages:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --build /Users/bogdancprljakovic/ros2_ws/build/text_subscriber -- -j8 -l8[0m
+[1.385s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_publisher' for CMake module files
+[1.385s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/bogdancprljakovic/ros2_ws/src/text_publisher' returned '0': CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:/Users/bogdancprljakovic/ros2_ws/install/text_subscriber:/opt/anaconda3/envs/ros2 CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/build/text_publisher/prefix_override:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/opt/anaconda3/envs/ros2/lib/python311/site-packages:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/text_publisher build --build-base /Users/bogdancprljakovic/ros2_ws/build/text_publisher/build install --record /Users/bogdancprljakovic/ros2_ws/build/text_publisher/install.log --single-version-externally-managed install_data[0m
+[1.386s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_publisher' for CMake config files
+[1.386s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib'
+[1.386s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/bin'
+[1.386s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/pkgconfig/text_publisher.pc'
+[1.386s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages'
+[1.387s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('text_publisher', 'pythonpath')
+[1.387s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/hook/pythonpath.ps1'
+[1.387s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/hook/pythonpath.dsv'
+[1.387s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/hook/pythonpath.sh'
+[1.387s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/bin'
+[1.387s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(text_publisher)
+[1.387s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/package.ps1'
+[1.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/package.dsv'
+[1.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/package.sh'
+[1.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/package.bash'
+[1.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher/package.zsh'
+[1.388s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/colcon-core/packages/text_publisher)
+[1.391s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/bogdancprljakovic/ros2_ws/build/text_subscriber': CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:/Users/bogdancprljakovic/ros2_ws/install/text_subscriber:/opt/anaconda3/envs/ros2:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/opt/anaconda3/envs/ros2/lib/python311/site-packages:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --install /Users/bogdancprljakovic/ros2_ws/build/text_subscriber[0m
+[1.414s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(text_subscriber)
+[1.414s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber' for CMake module files
+[1.415s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/bogdancprljakovic/ros2_ws/build/text_subscriber' returned '0': CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:/Users/bogdancprljakovic/ros2_ws/install/text_subscriber:/opt/anaconda3/envs/ros2:/Users/bogdancprljakovic/ros2_ws/install/text_publisher CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/opt/anaconda3/envs/ros2/lib/python311/site-packages:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --install /Users/bogdancprljakovic/ros2_ws/build/text_subscriber[0m
+[1.415s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber' for CMake config files
+[1.415s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('text_subscriber', 'cmake_prefix_path')
+[1.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/hook/cmake_prefix_path.ps1'
+[1.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/hook/cmake_prefix_path.dsv'
+[1.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/hook/cmake_prefix_path.sh'
+[1.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib'
+[1.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/bin'
+[1.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib/pkgconfig/text_subscriber.pc'
+[1.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib/python3.11/site-packages'
+[1.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/bin'
+[1.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.ps1'
+[1.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.dsv'
+[1.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.sh'
+[1.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.bash'
+[1.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.zsh'
+[1.417s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/colcon-core/packages/text_subscriber)
+[1.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(text_subscriber)
+[1.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber' for CMake module files
+[1.459s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber' for CMake config files
+[1.459s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('text_subscriber', 'cmake_prefix_path')
+[1.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/hook/cmake_prefix_path.ps1'
+[1.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/hook/cmake_prefix_path.dsv'
+[1.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/hook/cmake_prefix_path.sh'
+[1.460s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib'
+[1.460s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/bin'
+[1.460s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib/pkgconfig/text_subscriber.pc'
+[1.460s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib/python3.11/site-packages'
+[1.460s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/bin'
+[1.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.ps1'
+[1.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.dsv'
+[1.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.sh'
+[1.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.bash'
+[1.461s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.zsh'
+[1.461s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/colcon-core/packages/text_subscriber)
+[1.461s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.461s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.461s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.461s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.463s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[1.463s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[1.463s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.463s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'terminal_notifier'
+[1.511s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/bogdancprljakovic/ros2_ws/install/local_setup.ps1'
+[1.512s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/Users/bogdancprljakovic/ros2_ws/install/_local_setup_util_ps1.py'
+[1.513s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/bogdancprljakovic/ros2_ws/install/setup.ps1'
+[1.514s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/bogdancprljakovic/ros2_ws/install/local_setup.sh'
+[1.514s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/Users/bogdancprljakovic/ros2_ws/install/_local_setup_util_sh.py'
+[1.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/bogdancprljakovic/ros2_ws/install/setup.sh'
+[1.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/bogdancprljakovic/ros2_ws/install/local_setup.bash'
+[1.516s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/bogdancprljakovic/ros2_ws/install/setup.bash'
+[1.516s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/bogdancprljakovic/ros2_ws/install/local_setup.zsh'
+[1.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/bogdancprljakovic/ros2_ws/install/setup.zsh'

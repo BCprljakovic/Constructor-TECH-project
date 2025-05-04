@@ -1,0 +1,100 @@
+[0.129s] Invoking command in '/Users/bogdancprljakovic/ros2_ws/build/text_subscriber': AMENT_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --build /Users/bogdancprljakovic/ros2_ws/build/text_subscriber -- -j8 -l8
+[0.180s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.180s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.180s]   CMake.
+[0.180s] 
+[0.180s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.180s]   to tell CMake that the project requires at least <min> but has been updated
+[0.180s]   to work with policies introduced by <max> or earlier.
+[0.180s] 
+[0.180s] 
+[0.222s] -- Found ament_cmake: 1.3.11 (/opt/anaconda3/envs/ros2/share/ament_cmake/cmake)
+[0.362s] -- Found rclcpp: 16.0.11 (/opt/anaconda3/envs/ros2/share/rclcpp/cmake)
+[0.394s] -- Found rosidl_generator_c: 3.1.6 (/opt/anaconda3/envs/ros2/share/rosidl_generator_c/cmake)
+[0.397s] -- Found rosidl_adapter: 3.1.6 (/opt/anaconda3/envs/ros2/share/rosidl_adapter/cmake)
+[0.404s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/anaconda3/envs/ros2/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.853s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/anaconda3/envs/ros2/share/rmw_implementation_cmake/cmake)
+[0.856s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/anaconda3/envs/ros2/share/rmw_fastrtps_cpp/cmake)
+[0.983s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.026s] -- Found custom_msg_pkg: 0.0.0 (/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/share/custom_msg_pkg/cmake)
+[1.050s] -- Found ament_lint_auto: 0.12.11 (/opt/anaconda3/envs/ros2/share/ament_lint_auto/cmake)
+[1.119s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.119s] -- Configured cppcheck include dirs: 
+[1.119s] -- Configured cppcheck exclude dirs and/or files: 
+[1.120s] -- Added test 'lint_cmake' to check CMake code style
+[1.121s] -- Added test 'uncrustify' to check C / C++ code style
+[1.121s] -- Configured uncrustify additional arguments: 
+[1.121s] -- Added test 'xmllint' to check XML markup files
+[1.122s] -- Configuring done (0.9s)
+[1.138s] CMake Warning (dev) at CMakeLists.txt:13 (add_executable):
+[1.138s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[1.138s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[1.138s]   command to set the policy and suppress this warning.
+[1.138s] 
+[1.138s]   File:
+[1.138s] 
+[1.138s]     /Users/bogdancprljakovic/ros2_ws/src/text_subscriber/src/subscriber_node.cpp
+[1.138s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.138s] 
+[1.161s] -- Generating done (0.0s)
+[1.161s] -- Build files have been written to: /Users/bogdancprljakovic/ros2_ws/build/text_subscriber
+[1.230s] [ 50%] Building CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o
+[2.783s] In file included from /Users/bogdancprljakovic/ros2_ws/src/text_subscriber/src/subscriber_node.cpp:1:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/rclcpp.hpp:155:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/executors.hpp:21:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/executor.hpp:37:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/executor_options.hpp:20:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/memory_strategies.hpp:18:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/memory_strategy.hpp:25:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/any_executable.hpp:20:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/callback_group.hpp:29:
+[2.783s] In file included from /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/subscription_base.hpp:32:
+[2.783s] /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/any_subscription_callback.hpp:391:7: warning: 'set_deprecated<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>' is deprecated: use 'void(std::shared_ptr<const MessageT>)' instead [-Wdeprecated-declarations]
+[2.783s]   391 |       set_deprecated(static_cast<typename scbth::callback_type>(callback));
+[2.784s]       |       ^
+[2.784s] /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/subscription_factory.hpp:94:29: note: in instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>::set<std::__bind<void (Subscriber::*)(std::shared_ptr<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>), Subscriber *, const std::placeholders::__ph<1> &>>' requested here
+[2.784s]    94 |   any_subscription_callback.set(std::forward<CallbackT>(callback));
+[2.784s]       |                             ^
+[2.784s] /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/create_subscription.hpp:122:26: note: in instantiation of function template specialization 'rclcpp::create_subscription_factory<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>, std::__bind<void (Subscriber::*)(std::shared_ptr<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>), Subscriber *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>, custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>' requested here
+[2.784s]   122 |   auto factory = rclcpp::create_subscription_factory<MessageT>(
+[2.784s]       |                          ^
+[2.784s] /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/create_subscription.hpp:190:26: note: in instantiation of function template specialization 'rclcpp::detail::create_subscription<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>, std::__bind<void (Subscriber::*)(std::shared_ptr<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>), Subscriber *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>, rclcpp::Node, rclcpp::Node, custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>' requested here
+[2.784s]   190 |   return rclcpp::detail::create_subscription<
+[2.784s]       |                          ^
+[2.784s] /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/node_impl.hpp:99:18: note: in instantiation of function template specialization 'rclcpp::create_subscription<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>, std::__bind<void (Subscriber::*)(std::shared_ptr<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>), Subscriber *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>, rclcpp::Node>' requested here
+[2.784s]    99 |   return rclcpp::create_subscription<MessageT>(
+[2.784s]       |                  ^
+[2.784s] /Users/bogdancprljakovic/ros2_ws/src/text_subscriber/src/subscriber_node.cpp:31:33: note: in instantiation of function template specialization 'rclcpp::Node::create_subscription<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>, std::__bind<void (Subscriber::*)(std::shared_ptr<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>), Subscriber *, const std::placeholders::__ph<1> &>, std::allocator<void>, rclcpp::Subscription<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>, rclcpp::message_memory_strategy::MessageMemoryStrategy<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>>' requested here
+[2.784s]    31 |             subscription_=this->create_subscription<custom_msg_pkg::msg::TextStamped>("TextStamped",10,
+[2.784s]       |                                 ^
+[2.784s] /opt/anaconda3/envs/ros2/include/rclcpp/rclcpp/any_subscription_callback.hpp:405:5: note: 'set_deprecated<custom_msg_pkg::msg::TextStamped_<std::allocator<void>>>' has been explicitly marked deprecated here
+[2.784s]   405 |   [[deprecated("use 'void(std::shared_ptr<const MessageT>)' instead")]]
+[2.784s]       |     ^
+[4.398s] 1 warning generated.
+[4.416s] [100%] Linking CXX executable subscriber_node
+[4.521s] [100%] Built target subscriber_node
+[4.532s] Invoked command in '/Users/bogdancprljakovic/ros2_ws/build/text_subscriber' returned '0': AMENT_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --build /Users/bogdancprljakovic/ros2_ws/build/text_subscriber -- -j8 -l8
+[4.573s] Invoking command in '/Users/bogdancprljakovic/ros2_ws/build/text_subscriber': AMENT_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --install /Users/bogdancprljakovic/ros2_ws/build/text_subscriber
+[4.582s] -- Install configuration: ""
+[4.582s] -- Installing: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib/text_subscriber/subscriber_node
+[4.585s] /opt/anaconda3/envs/ros2/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib/text_subscriber/subscriber_node
+[4.586s] [cctools-port]: generating fake signature for '/Users/bogdancprljakovic/ros2_ws/install/text_subscriber/lib/text_subscriber/subscriber_node'
+[4.593s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/ament_index/resource_index/package_run_dependencies/text_subscriber
+[4.593s] -- Installing: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/ament_index/resource_index/parent_prefix_path/text_subscriber
+[4.593s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/environment/ament_prefix_path.sh
+[4.593s] -- Installing: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/environment/ament_prefix_path.dsv
+[4.594s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/environment/path.sh
+[4.594s] -- Installing: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/environment/path.dsv
+[4.594s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/local_setup.bash
+[4.594s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/local_setup.sh
+[4.594s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/local_setup.zsh
+[4.594s] -- Installing: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/local_setup.dsv
+[4.594s] -- Installing: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.dsv
+[4.594s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/ament_index/resource_index/packages/text_subscriber
+[4.595s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/cmake/text_subscriberConfig.cmake
+[4.595s] -- Up-to-date: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/cmake/text_subscriberConfig-version.cmake
+[4.595s] -- Installing: /Users/bogdancprljakovic/ros2_ws/install/text_subscriber/share/text_subscriber/package.xml
+[4.596s] Invoked command in '/Users/bogdancprljakovic/ros2_ws/build/text_subscriber' returned '0': AMENT_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/cmake --install /Users/bogdancprljakovic/ros2_ws/build/text_subscriber

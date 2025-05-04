@@ -1,0 +1,25 @@
+[0.335s] Invoking command in '/Users/bogdancprljakovic/ros2_ws/src/text_publisher': AMENT_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/build/text_publisher/prefix_override:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/text_publisher build --build-base /Users/bogdancprljakovic/ros2_ws/build/text_publisher/build install --record /Users/bogdancprljakovic/ros2_ws/build/text_publisher/install.log --single-version-externally-managed install_data
+[0.442s] running egg_info
+[0.442s] writing ../../build/text_publisher/text_publisher.egg-info/PKG-INFO
+[0.442s] writing dependency_links to ../../build/text_publisher/text_publisher.egg-info/dependency_links.txt
+[0.442s] writing entry points to ../../build/text_publisher/text_publisher.egg-info/entry_points.txt
+[0.442s] writing requirements to ../../build/text_publisher/text_publisher.egg-info/requires.txt
+[0.442s] writing top-level names to ../../build/text_publisher/text_publisher.egg-info/top_level.txt
+[0.443s] reading manifest file '../../build/text_publisher/text_publisher.egg-info/SOURCES.txt'
+[0.443s] writing manifest file '../../build/text_publisher/text_publisher.egg-info/SOURCES.txt'
+[0.443s] running build
+[0.443s] running build_py
+[0.444s] copying text_publisher/publisher_node.py -> /Users/bogdancprljakovic/ros2_ws/build/text_publisher/build/lib/text_publisher
+[0.444s] running install
+[0.444s] running install_lib
+[0.444s] copying /Users/bogdancprljakovic/ros2_ws/build/text_publisher/build/lib/text_publisher/publisher_node.py -> /Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages/text_publisher
+[0.445s] byte-compiling /Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages/text_publisher/publisher_node.py to publisher_node.cpython-311.pyc
+[0.445s] running install_data
+[0.445s] copying package.xml -> /Users/bogdancprljakovic/ros2_ws/install/text_publisher/share/text_publisher
+[0.446s] running install_egg_info
+[0.446s] removing '/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages/text_publisher-0.0.0-py3.11.egg-info' (and everything under it)
+[0.447s] Copying ../../build/text_publisher/text_publisher.egg-info to /Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages/text_publisher-0.0.0-py3.11.egg-info
+[0.448s] running install_scripts
+[0.463s] Installing publisher_node script to /Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/text_publisher
+[0.463s] writing list of installed files to '/Users/bogdancprljakovic/ros2_ws/build/text_publisher/install.log'
+[0.475s] Invoked command in '/Users/bogdancprljakovic/ros2_ws/src/text_publisher' returned '0': AMENT_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2) DYLD_LIBRARY_PATH=/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib PYTHONPATH=/Users/bogdancprljakovic/ros2_ws/build/text_publisher/prefix_override:/opt/anaconda3/envs/ros2/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/bogdancprljakovic/ros2_ws/install/text_publisher/lib/python3.11/site-packages:/Users/bogdancprljakovic/ros2_ws/install/custom_msg_pkg/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/opt/anaconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/anaconda3/envs/ros2/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/text_publisher build --build-base /Users/bogdancprljakovic/ros2_ws/build/text_publisher/build install --record /Users/bogdancprljakovic/ros2_ws/build/text_publisher/install.log --single-version-externally-managed install_data
