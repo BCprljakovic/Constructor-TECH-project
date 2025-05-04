@@ -18,7 +18,7 @@ Then, in one of them run:
 ### With Docker
 
 ###
-    docker build -t container
+    docker build -t container .
     
 After that, run:
 ###
